@@ -41,7 +41,7 @@ tl.to(
   {
     top: "110%",
     rotate: "130deg",
-    left: "80%",
+    left: "70%",
   },
   "orange"
 );
@@ -60,9 +60,9 @@ var tl2 = gsap.timeline({
   scrollTrigger: {
     trigger: ".three",
     start: "0% 95%",
-    end: "70% 50%",
+    end: "20% 50%",
     scrub: true,
-    markers: true,
+    // markers: true,
   },
 });
 
@@ -102,6 +102,26 @@ tl2.from(
     rotate: "90deg",
     top: "110%",
     left: "100%",
+  },
+  "ca"
+);
+
+tl2.to(
+  "#orange-cut",
+  {
+    width: "18%",
+    left: "39%",
+    top: "204%",
+  },
+  "ca"
+);
+
+tl2.to(
+  "#fanta",
+  {
+    width: "35%",
+    top: "210%",
+    left: "30%",
   },
   "ca"
 );
